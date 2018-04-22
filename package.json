@@ -1,0 +1,27 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lassit09/reactBasics.git"
+  },
+  "author": "Taylor Lassiter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lassit09/reactBasics/issues"
+  },
+  "homepage": "https://github.com/lassit09/reactBasics#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  },
+  "dependencies": {
+    "eslint": "^4.19.1"
+  }
+}
