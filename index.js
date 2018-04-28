@@ -85,3 +85,12 @@ const bill = new Person ("Bill", 50, ["Sean", "Sarah"]);
 bill.speak();
 bill.birth("Jess");
 console.log(bill.children);
+
+// spread operators
+const names = ["John", "Bill", "Sam"];
+const moreNames = ["William", "Paul", "Mike"];
+console.log(...names);
+
+// ["John", "Bill", "Sam", "Gio", "William", "Paul", "Mike"]
+const allNames = [...names, "Gio", ...moreNames];
+console.log(allNames);
